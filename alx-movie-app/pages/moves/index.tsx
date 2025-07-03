@@ -61,7 +61,7 @@ const Movies: React.FC<MProps> = () => {
         className="border-2 w-full md:w-96 border-[#E2D609] outline-none bg-transparent px-4 py-2 rounded-full text-white placeholder-gray-400"
       />
 
-      <select
+      <select title="Select Year"
         onChange={(event: React.ChangeEvent<HTMLSelectElement>) => setYear(Number(event.target.value))}
         className="border-2 border-[#E2D609] outline-none bg-transparent px-4 md:px-8 py-2 mt-4 md:mt-0 rounded-full w-full md:w-auto"
       >
